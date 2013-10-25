@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+		<title>RCA Jeunes</title>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		 <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+		
+		<link rel="stylesheet" href="css/bebasneue.css" />
+		<link rel="stylesheet" href="css/jquery.mobile-1.3.1.min.css" />
+		<link rel="stylesheet" href="css/style.css"  type="text/css" title="css" />
+		<link rel="stylesheet" href="http://cr-ca.ktp-concept.com/wp-content/themes/rcajeunes/style_rcaj.css"  type="text/css" title="css" />
+		
+		<script type="text/javascript" charset="utf-8">var url_site='http://cr-ca.ktp-concept.com';</script>
+		<script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/jquery.mobile-1.3.1.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/PushNotification.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/script.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/script2.js"></script>
+	</head>
+	<body>
+	<div id="no-internet" style="display:none;">
+		<p>Pour fonctionner correctement, l'application requiert une connexion Internet (Wifi ou cellulaire - edge ou 3G)</p>
+	</div>
+	<div data-url="main-page" data-role="page" id="main-page" data-theme="d">
+	    <div data-role="header" data-theme="c" >
+	        <a id="to-right-panel" href="#right-panel" class="menu-toggle-right ui-btn-right" data-role="none"><img src="http://cr-ca.ktp-concept.com/wp-content/themes/rcajeunes/images/nav_menu.png"/></a>
+	    	<!-- <a id="a_right-panel2" href="#right-panel2" class="menu-toggle-right ui-btn-right" style="display:none;" data-role="none"><img src="http://cr-ca.ktp-concept.com/wp-content/themes/rcajeunes/images/guid_bck_nav.png"/></a> -->
+	    </div>
+		
+	    <div data-role="content">
+	    	<div id="loadering">Chargement en cours...</div>
+	    
+	           <iframe name="rcaframe" id="rcaframe"
+			          sandbox="allow-same-origin allow-top-navigation allow-scripts allow-popups allow-forms"
+			         src="http://cr-ca.ktp-concept.com" 
+			          style="border: 0; width:100%; height:800px;"
+			          ></iframe> 
+	    </div>
+	    <div data-role="panel" id="right-panel"  data-position="right" data-theme="c">
+		</div>
+		
+		 <div data-role="panel" id="right-panel2"  data-position="right" data-theme="c">
+		</div>
+		
+	</div>
+	</body>
+</html>

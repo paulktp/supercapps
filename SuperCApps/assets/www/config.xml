@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.ktp.rca"
+        versionCode="10"
+        version="1.3.33">
+
+    <!-- versionCode is optional and Android only -->
+ 
+    <name>test</name>
+    
+
+    <description>
+        test
+    </description>
+
+    <author href="http://www.ktp.net" email="contact@ktp.net">
+        KTP Concept
+    </author>
+    <preference name="phonegap-version" value="2.9.0" />
+    <preference name="show-splash-screen-spinner" value="false" />
+    <preference name="auto-hide-splash-screen" value="true" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="exit-on-suspend" value="true" />
+    
+    <preference name="orientation" value="portrait" />
+    
+   
+	 
+	 <gap:platform name="ios" />
+	 <gap:platform name="android" />
+	 <!-- <gap:platform name="winphone" /> -->
+
+</widget>
